@@ -11,8 +11,8 @@ const About = () => (
           Hello
         </span>
         <p>
-          My name is Iván Gonzalez, and I am a pasionate Full Stack Web Developer who uses technology 
-          to build engaging websites and applications that empower businesses. Whether you&apos;re launching 
+          My name is Iván Gonzalez, and I am a pasionate Full Stack Developer who uses technology 
+          to build engaging mobile and web applications that empower businesses. Whether you&apos;re launching 
           a new brand, streamlining operations, or reaching new audiences, 
           I&apos;m passionate about crafting solutions that make a real difference.
         </p>
@@ -30,7 +30,8 @@ const About = () => (
           <li>TailwindCSS</li>
         </ul> 
         <ul>
-          <li>React & Redux</li>
+          <li>React Native</li>
+          <li>React.js</li>
           <li>TypeScript</li>
           <li>Bootstrap</li>
         </ul>
