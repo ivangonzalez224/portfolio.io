@@ -43,7 +43,7 @@ const ProjectsList = () => {
   return (
     <div className="projects-main" id="projects">
       <h2>Latest Projects</h2>
-      <div className="projects-filter">   
+      <div className="projects-filter">
         <button
           type="button" 
           onClick={() => setSelectedFilter('All')}
@@ -53,12 +53,22 @@ const ProjectsList = () => {
         }}>All</button>
         <button
           type="button"
-          onClick={() => setSelectedFilter('React')}
+          onClick={() => setSelectedFilter('React.js')}
           style={{
-            backgroundColor: selectedFilter === 'React' ? '#5a79f3' : '#fff',
-            color: selectedFilter === 'React' ? '#fff' : '#181d2b',
+            backgroundColor: selectedFilter === 'React.js' ? '#5a79f3' : '#fff',
+            color: selectedFilter === 'React.js' ? '#fff' : '#181d2b',
           }}
-        >React</button>
+        >React.js</button>
+        <button
+          type="button"
+          onClick={() => setSelectedFilter('React Native')}
+          style={{
+            backgroundColor: selectedFilter === 'React Native' ? '#5a79f3' : '#fff',
+            color: selectedFilter === 'React Native' ? '#fff' : '#181d2b',
+          }}
+        >
+          React Native
+        </button>
         <button
           type="button"
           onClick={() => setSelectedFilter('Ruby on Rails')}
@@ -77,6 +87,8 @@ const ProjectsList = () => {
                 projectId={project.id}
                 projectName={project.name}
                 projectImage={project.image}
+                projectDemo={project.demo}
+                projectSource={project.source}
                 projectLive={project.live}
                 projectGithub={project.github}
                 backImg={project.backimg}
