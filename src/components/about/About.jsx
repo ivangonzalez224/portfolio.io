@@ -33,11 +33,11 @@ const About = () => (
           <li>React Native</li>
           <li>React.js</li>
           <li>TypeScript</li>
-          <li>Bootstrap</li>
         </ul>
         <ul>
           <li>Ruby on Rails</li>
           <li>PostgreSQL</li>
+          <li>Bootstrap</li>
         </ul>
         <ul>
           <li>Git</li>
