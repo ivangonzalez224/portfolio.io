@@ -107,7 +107,7 @@
   height: 100%;
 }
 
-#itemProjectBtn a {
+.itemProjectSource {
   text-decoration: none;
   padding: 2% 0;
   border: #738bee solid 2px;
@@ -118,7 +118,7 @@
   font-weight: 700;
 }
 
-#itemProjectBtn a:hover {
+.itemProjectSource:hover {
   background-color: #fff;
   color: var(--fontBlack);
   border-color: #fff;

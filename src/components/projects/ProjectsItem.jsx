@@ -8,8 +8,22 @@ const ProjectsItem = (
   <div className="project-item">
     <div id="backProjectItem" style={{ backgroundImage: `url(${backImg})` }}>
       <div id="itemProjectBtn">
-        <a href={projectLive} target="_blank" rel="noreferrer">{projectDemo}</a>
-        <a href={projectGithub} target="_blank" rel="noreferrer">{projectSource}</a>
+        <a className="itemProjectSource" href={projectLive} target="_blank" rel="noreferrer">{projectDemo}</a>
+        <button
+          className="itemProjectSource"
+          type="button"
+          disabled={projectSource === 'Private Repository'} // disable if the text is 'Private Repository'
+          style={{
+            cursor: projectSource === 'Private Repository' ? 'not-allowed' : 'pointer',
+          }}
+          onClick={() => {
+            if (projectSource !== 'Private Repository') {
+              window.open(projectGithub, '_blank', 'noreferrer');
+            }
+          }}
+        >
+          {projectSource}
+        </button>
       </div>
     </div>
     
