@@ -52,7 +52,7 @@ In this project I used reac, Redux and CSS.
 
  The link to the project deployed:
 
-- [Live Demo Link](https://ivangonzalez224.github.io/portfolio.io/)
+- [Live Demo Link](https://ivangonzalezportfolio.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
