@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 nav ul .nav_left {
-  width: 6%;
+  width: 25px;
   border-radius: 50px;
   justify-content: flex-start;
   align-items: center;
@@ -94,6 +94,7 @@ nav ul .nav_left {
 #nav-ham {
   display: flex;
   justify-content: flex-end;
+  font-size: 25px;
 }
 
 #nav_name {
