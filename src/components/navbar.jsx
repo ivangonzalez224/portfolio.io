@@ -43,7 +43,7 @@ const NavBar = ({ sections }) => {
       </ul>
       <ul id="nav_cartoon">
         <li className="nav_left">
-          <a href="#home"><img src={myPhoto} alt="My photo" /></a>
+          <a href="#home">Iván</a>
         </li>
       </ul>
       <ul id="nav-rigth">
