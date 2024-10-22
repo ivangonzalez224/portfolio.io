@@ -10,7 +10,7 @@ nav {
   box-sizing: border-box;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1000;
 }
 
 nav ul {
@@ -32,8 +32,8 @@ nav ul {
   display: flex;
 }
 
-#nav_cartoon img {
-  width: 120%;
+#nav_cartoon a {
+  margin-left: 5px;
 }
 
 nav ul li {

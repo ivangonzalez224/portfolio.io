@@ -13,7 +13,7 @@
 }
 
 .projects-list {
-  width: 80%;
+  width: 89%;
   display: flex;
   justify-content: center;
 }
@@ -29,6 +29,9 @@
 
 .projects-filter button {
   border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .projects-filter button:focus {
@@ -49,7 +52,7 @@
   justify-content: center;
   list-style: none;
   background-color: var(--fontpurple);
-  margin-right: 2%;
+  margin-right: 3%;
   border-radius: 5px;
   padding: 1%;
 }
@@ -67,7 +70,8 @@
 #itemContent {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-start;
+  height: 100%;
 }
 
 #itemContent p {
@@ -136,10 +140,43 @@
 }
 
 .project-tech {
+  margin-top: auto;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
   padding: 0;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 500;
+}
+
+
+.react-multiple-carousel__arrow--left {
+  left: 3px;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 3px;
+}
+
+@media only screen and (max-width: 765px) {
+  .projects-filter button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .projects-list {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+}
+
+  .react-multi-carousel-list li {
+    margin-right: 2%;
+    margin-left: 2%;
+
+ }
 }
