@@ -138,3 +138,9 @@
     width: 49%;
   }
 }
+
+@media (max-width: 873px) {
+  .head-imgSocial {
+    width: 60%;
+  }
+}
