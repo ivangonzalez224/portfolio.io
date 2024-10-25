@@ -70,7 +70,7 @@
 #itemContent {
   display: flex;
   flex-direction: column;
-  justify-content: space-start;
+  justify-content: space-between;
   height: 100%;
 }
 
@@ -153,7 +153,6 @@
   z-index: 500;
 }
 
-
 .react-multiple-carousel__arrow--left {
   left: 3px;
 }
@@ -172,11 +171,10 @@
     width: 97%;
     display: flex;
     justify-content: center;
-}
+  }
 
   .react-multi-carousel-list li {
     margin-right: 2%;
     margin-left: 2%;
-
- }
+  }
 }

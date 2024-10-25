@@ -32,6 +32,24 @@ nav ul {
   display: flex;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown-menu li a {
+  display: flex;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--backColor);
+  width: 50%;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  color: var(--fontpurple);
+}
+
 #nav_cartoon a {
   margin-left: 5px;
 }
@@ -45,25 +63,7 @@ nav ul li {
   padding: 1% 4%;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .active {
-  color: var(--fontpurple);
-}
-
-.dropdown-menu li a {
-  display: flex; /* Display links as blocks for vertical stacking */
-  padding: 0.5rem 1rem; /* Add spacing between links */
-  text-decoration: none; /* Remove underlines from links */
-  color: var(--backColor);
-  width: 50%;
-  align-items: center;
-}
-
-nav ul li a:hover {
   color: var(--fontpurple);
 }
 
