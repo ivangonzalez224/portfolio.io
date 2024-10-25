@@ -30,7 +30,7 @@ const Contact = () => {
     e.preventDefault();
     setSubmitting(true);
     // 
-    const response = await fetch('https://script.google.com/macros/s/AKfycbxCKNrr_Fdrg1OX5sq8Uf7ezhpJucaeYlaMpfDN5XzgcKeiyv3LHN3lv_vRzI3nGOQizw/exec', {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbxrECoeqSBaNOnRnTmugJYOiv8kmXnByAx-1rjBao1eFuQK2yAaFfSJ85xWT5mg2vROnw/exec', {
       method: 'POST',
       body: new FormData(form)
     });
